@@ -45,29 +45,29 @@ section {
 }
 
 #p1 {
-  left: 0;
-  background-image: url(../img/home-bg.png);
+
+  background-image: url(../img/home-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #p2 {
   left: 100%;
-  background-image: url(../img/about-bg.png);
+  background-image: url(../img/about-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #p3 {
   left: 200%;
-  background-image: url(../img/gallery-bg.png);
+  background-image: url(../img/clients-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #p4 {
   left: 300%;
-  background-image: url(../img/contact-bg.png);
+  background-image: url(../img/info-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -92,7 +92,7 @@ ul {
 #t2:target ul, 
 #t3:target ul,
 #t4:target ul {
-  background-color: rgba(48, 51, 60, 1);
+  background-color: #040F0F;
 }
 
 .page#p1 {
@@ -131,21 +131,21 @@ ul .icon:hover {
 }
 
 #t2:target #dos {
-	color: #9f7f5f;
+	color: #EA0303;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	-webkit-transition: all 0.2s linear;
 }
 
 #t3:target #tres {
-	color: #8aaa75;
+	color: #EA0303;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	-webkit-transition: all 0.2s linear;
 }
 
 #t4:target #cuatro {
-	color: #8575aa;
+	color: #EA0303;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	-webkit-transition: all 0.2s linear;
@@ -294,7 +294,8 @@ a {
 
 
 #p2 .left-text {
-	text-align: left;
+	text-align: right;
+  padding-left: 350px;
 }
 
 #p2 .primary-button {
@@ -432,7 +433,6 @@ a {
 }
 
 #p4 .right-info {
-	background-color: #fff;
 	padding: 30px;
 	color: #343434;
 	text-align: left;
